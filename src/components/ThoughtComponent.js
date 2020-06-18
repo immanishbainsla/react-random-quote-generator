@@ -54,21 +54,21 @@ class ThoughtComponent extends React.Component {
     };
 
     return (
-      <div className="row">
+      <div className="row mt-sm-4">
         <div
           className="col-md-6 col-sm-10 rounded mx-auto align-middle"
           style={S2}
         >
           <div className="card text-center">
             <div className="card-header font-weight-bold">
-              <h4 className="headerFontStyle">Featured Quote</h4>
+              <h4 className="headerFontStyle font2">Featured Quote</h4>
             </div>
             <div className="card-body">
-              <p className="card-text quoteFontStyle">
+              <p className="card-text quoteFontStyle font1">
                 "{this.state.currentQuote}"
               </p>
               <h4 className="card-title authorFontStyle">
-                <footer class="blockquote-footer">
+                <footer className="blockquote-footer font2">
                   <cite title="Author">{this.state.currentAuthor}</cite>
                 </footer>
               </h4>
